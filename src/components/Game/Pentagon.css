@@ -1,0 +1,59 @@
+.Pentagon {
+    width: 98px;
+    height: 88px;
+
+    left: 50%;
+
+    border-radius: 10px;
+
+    clip-path: url('#Pentagon__Clip');
+
+    background-color: #ff00cc;
+    transition: .4s ease-in-out;
+    cursor: pointer;
+}
+
+.Pentagon__Location {
+    margin: -55px 0 0 0;
+    opacity: 0.2;
+
+    text-align: center;
+    cursor: pointer;
+}
+
+.Pentagon:nth-child(2n) { 
+    margin: 45px -18px -40px -18px;
+}
+
+.Pentagon:hover {
+    opacity: 0.6;
+}
+
+.Pentagon[color = void] {
+    background-color: var(--charade);
+}
+
+.Pentagon[color = empty] {
+    background-color: var(--light-charade);
+}
+
+.Pentagon[color = blocked] {
+    background-color: var(--red);
+}
+
+.Pentagon[color = start] {
+    background-color: var(--yellow);
+}
+
+.Pentagon[color = goal] {
+    background-color: var(--purple);
+}
+
+.Pentagon[color = green] {
+    opacity: 0.2;
+    background-color: var(--green);
+}
+
+.Pentagon[color = poweredGreen] {
+    background-color: var(--green);
+}

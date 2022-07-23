@@ -1,0 +1,19 @@
+.Game__Map {
+    height: calc(100vh - 40px);
+    width: calc(100vw - 40px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Game__Map__Grid {
+    width: 600px;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 0;
+    row-gap: 0;
+
+    display: grid;
+    justify-content: center;
+}
