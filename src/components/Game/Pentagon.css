@@ -41,11 +41,20 @@
     background-color: var(--red);
 }
 
-.Pentagon[color = start] {
+.Pentagon[color = greenStart] {
     background-color: var(--yellow);
 }
 
-.Pentagon[color = goal] {
+.Pentagon[color = purpleStart] {
+    background-color: var(--yellow);
+}
+
+.Pentagon[color = purple] {
+    opacity: 0.2;
+    background-color: var(--purple);
+}
+
+.Pentagon[color = poweredPurple] {
     background-color: var(--purple);
 }
 

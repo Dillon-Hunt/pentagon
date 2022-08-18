@@ -1,6 +1,25 @@
+.Game__Container {
+    padding: 10px;
+    background-color: var(--green);
+}
+
+.Game__Container[turn = purple] {
+    background-color: var(--purple);
+}
+
+.Game {
+    background-color: var(--charade);
+    border-radius: 10px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
 .Game__Map {
-    height: calc(100vh - 40px);
-    width: calc(100vw - 40px);
+    height: calc(100vh - 20px);
+    width: calc(100vw - 20px);
 
     display: flex;
     justify-content: center;

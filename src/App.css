@@ -31,14 +31,14 @@ h2, h3 {
 }
 
 body {
-  margin: 20px 20px 20px 20px;
+  margin: 0;
 
   overflow-x: hidden;
 }
 
 .App {
   font-family: 'Rubik', sans-serif;
-  height: calc(100vh - 40px);
+  height: calc(100vh - 20px);
 }
 
 .App__Loading {
